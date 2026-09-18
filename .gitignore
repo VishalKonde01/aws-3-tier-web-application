@@ -1,0 +1,89 @@
+# ==============================
+# AWS 3-Tier Web Application
+# Git Ignore File
+# ==============================
+
+# ==============================
+# AWS Credentials & Secrets
+# ==============================
+.aws/
+*.pem
+*.ppk
+*.key
+credentials
+config
+.env
+.env.*
+*.secret
+secrets/
+credentials.json
+
+# ==============================
+# Database Credentials
+# ==============================
+*.sql.bak
+*.dump
+*.db
+*.sqlite
+database-password.txt
+db-password.txt
+
+# ==============================
+# Java / Maven / Gradle
+# ==============================
+target/
+build/
+out/
+*.class
+*.jar
+*.war
+
+# ==============================
+# IDE Files
+# ==============================
+.idea/
+*.iml
+.vscode/
+.project
+.classpath
+.settings/
+
+# ==============================
+# Logs
+# ==============================
+*.log
+logs/
+log/
+catalina.out
+
+# ==============================
+# Tomcat Generated Files
+# ==============================
+work/
+temp/
+webapps/*.war
+webapps/*/work/
+webapps/*/temp/
+
+# ==============================
+# Nginx Generated Files
+# ==============================
+nginx/logs/
+nginx/*.log
+
+# ==============================
+# OS Generated Files
+# ==============================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+
+# ==============================
+# Temporary Files
+# ==============================
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
