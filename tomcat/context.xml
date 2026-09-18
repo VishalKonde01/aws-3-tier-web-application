@@ -1,0 +1,12 @@
+<Resource
+    name="jdbc/TestDB"
+    auth="Container"
+    type="javax.sql.DataSource"
+    maxTotal="500"
+    maxIdle="30"
+    maxWaitMillis="1000"
+    username="admin"
+    password="YOUR_DATABASE_PASSWORD"
+    driverClassName="com.mysql.jdbc.Driver"
+    url="jdbc:mysql://YOUR_RDS_ENDPOINT:3306/studentapp?useUnicode=yes&amp;characterEncoding=utf8"
+/>
